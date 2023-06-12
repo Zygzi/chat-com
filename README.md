@@ -13,16 +13,16 @@ Welcome to CHAT.COM, a messaging application that allows you to connect and comm
 
 ## Installation
 
-1. Lorem Ipsum is simply dumm
-
-2. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+1. Download Zip with files
+2. Import database on local server
+3. Put files into htdocs folder
 
 
 ## Technologies Used
 
-- Lorem
-- Lorem
-- Lorem
+- HTML/CSS
+- PHP
+- JavaScript
 
 ## License
 
