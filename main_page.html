@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHAT.COM · STRONA GŁÓWNA</title>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="icon" href="./src/chat-icon.png">
+    <meta name="title" content="CHAT.COM · LOGOWANIE">
+    <meta name="description" content="CHAT.COM to szybki, bezpieczny i zaawansowany komunikator. Przesyłaj wiadomości oraz kontaktuj się z najbliższymi. Dołącz do Chat.com już teraz!">
+    <meta name="keywords" content="komunikator, czat, aplikacja, wiadomości, rozmowy, komunikacja online, współpraca, bezpieczeństwo, chat, messenger, chatapp">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+        body{
+            font-family: 'Inter';
+            background-color: #141414;
+            text-align: center;
+        }
+        p{
+            position: absolute;
+            font-size: 40px;
+            top: 20%;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            text-align: center;
+            font-weight: bold;
+        }
+        p, button{
+            color: white;
+        }
+        button{
+            position: relative;
+            background-color: #8F38FE;
+            user-select:none;
+            text-align: center;
+            text-decoration: none;
+            transition-duration: 0.4s;
+            -webkit-transition-duration: 0.4s;
+            height: 71px;
+            width: 250px;
+            font-family: Tahoma;
+            border-radius: 25px;
+            font-size: 20px;
+            margin: 10px;
+        }
+        button:after {
+            content: "";
+            display: block;
+            position: absolute;
+            border-radius: 4em;
+            left: 0;
+            top:0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: all 0.5s;
+            box-shadow: 0 0 10px 40px white;
+        }
+
+        button:active:after {
+            box-shadow: 0 0 0 0 white;
+            position: absolute;
+            border-radius: 4em;
+            left: 0;
+            top:0;
+            opacity: 1;
+            transition: 0s;
+        }
+
+        button:active {
+            top: 1px;
+        }
+        .login-btn{
+            background-color: #141414;
+            border: #8F38FE 1px solid;
+        }
+        .singup-btn{
+            background: rgb(20,20,20);
+            background: linear-gradient(0deg, rgba(20,20,20,1) 0%, rgba(86,43,141,1) 1%, rgba(145,64,248,1) 49%, rgba(145,64,248,1) 90%);
+            -webkit-filter: brightness(90%) contrast(90%) blur(2px) grayscale(10%);
+            filter: brightness(90%) contrast(90%)  grayscale(10%);
+        }
+        .container{
+            margin-top: 450px;
+        }
+        button:hover{
+            font-size: 21px;
+            border-radius: 15px;
+            cursor: pointer;
+            margin: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>CHAT.COM</p>
+        <!-- ZMIEŃ HREFA-->
+        <a href="./login.php"><button class="login-btn">ZALOGUJ SIĘ</button></a>
+        <!-- ZMIEŃ HREFA-->
+        <a href="./singup.php"><button class="singup-btn">ZAREJESTRUJ SIĘ</button></a>
+    </div>
+</body>
+</html>
